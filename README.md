@@ -7,20 +7,9 @@ Users can submit an answer to a chosen question (also uploaded by other users), 
 - folder "forum" is the app folder
 
 ## Technical notes
-- For now, all you can register from front-end is questions
-    - Answers can be submitted, but become invalid
-
+- For now, all you can register from front-end is questions and answers
 
 ## To fix
-### Functionality
-- forum\views.py
-    - Posted answers get invalid in the next page (forum\templates\forum\question.html)
-
-- Others
-    - When trying to add a question from admin, it returns AttributeError: 'str' object has no attribute 'utcoffset'
-
- (last update: Jan. 28, 2022)
-
 
 ## Further development to do
 - **Models should be organized using Subclass???**
